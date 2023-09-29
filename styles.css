@@ -1,0 +1,130 @@
+header {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+body{
+  background-color:black;
+  background-image: url('cloud.jpg');
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  font-size: 100%;
+  font-family: Arial;
+  font-weight: lighter;
+}
+table{
+    width: 85%;
+    margin: 0 auto;
+}
+a:hover {
+    color: red; 
+    text-decoration: underline; 
+}
+
+span.lookskindauglybutitwasrequired {
+    color: red;
+    font-weight: bold;
+}
+
+header img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+
+nav ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black; 
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+ text-align: center;
+ margin: 0 auto;
+  overflow:hidden;
+   background: linear-gradient(90deg, 
+                              rgba(255, 255, 255, 0.0) 0%, 
+                              rgba(255, 255, 255, 0.3) 5%,
+
+                              rgba(255, 255, 255, 0.0) 100%);
+  
+}
+
+
+
+
+.left {
+  padding-top: 20px;
+  width: 20%;
+  float:left;
+  text-align:center;
+  margin-left:30%;
+  margin-bottom:2%;
+}
+
+.right{
+
+  padding-top:20px;
+  float: left;
+  width:22%;
+  min-height: 150%;
+}
+
+.right ul, .right ol, .left ul, .left ol{
+  list-style-position: inside;
+  margin:0;
+  padding-left:20px;
+  text-align: left;
+}
+
+.bottom{
+  margin: 0 auto;
+  float:left;
+  width:40%;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-left:30%;
+}
+
+.cell-title{
+  font-weight: bold;
+  text-decoration:underline;
+  margin:0;
+}
+
+.clear{
+  clear:both;
+}
+
+footer{
+  text-align:center;
+}
+
+.even{
+  background-color:#ADB3BC;
+}
+
+.odd{
+  background-color: #8D9797;
+}
